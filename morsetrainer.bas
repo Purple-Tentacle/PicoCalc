@@ -652,7 +652,7 @@ endduration: End Sub
 'load variabless from flash
 Sub loadvars
   Drive "b:"
-  exists = MM.Info(exists file "morsetraner.var")
+  exists = MM.Info(exists file "morsetrainer.var")
   If exists = 1 Then
     Open "morsetrainer.var" For input As #1
     For i = 0 To 99
